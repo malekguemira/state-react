@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+  height: 100vh;
+}
+.Box {
+  width: 50%;
+  margin: auto;
+  height: 60vh;
+  border : 1px solid black;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.Box button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.Box .profile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Box .profile img {
+  height: 200px;
+  width: 200px;
+}
